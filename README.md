@@ -1,26 +1,28 @@
 #Movie Content Management System
 
+RESTful Service to manage (CRUD) movies
+
+Batch Create/Update - /movie HTTP Post
+
+Search - /movie HTTP Get and /movie/search HTTP Post
+
+Delete - /movie HTTP Delete
+
 
 ###Dependencies
 ######For versions checkout pom.xml
 
 Spring 
 
-Joda
+Java
 
 Maven
 
-Java
-
-JSTL
-
-Servlet API
+MySQL
 
 JUnit
 
 Jackson
-
-Log4J and JCL 
 
 Apache HTTP Client
 
