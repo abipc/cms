@@ -1,8 +1,15 @@
 #Movie Content Management System
 
-RESTful Service to manage (CRUD) movies
+####RESTful 
 
-This service is one of the four services required. TRANSACTIONAL service that takes care of all the CRUD operations on the movies.
+Service to manage (CRUD) movies
+
+####TRANSACTIONAL 
+
+service that takes care of all the CRUD operations on the movies.
+
+
+####APIs
 
 Batch Create/Update - /movie HTTP Post
 
@@ -94,6 +101,6 @@ echo $JAVA_HOME
 
 File -> Import -> Maven -> Existing Maven Projects
 
-Browse & select trackntracedataimporter directory
+
 
 
