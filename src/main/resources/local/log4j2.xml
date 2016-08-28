@@ -1,0 +1,18 @@
+<Configuration status="INFO">
+    <Appenders>
+        <File name="Analytics" fileName="/var/log/blackbuck/compute.log" immediateFlush="true" append="false">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File> 
+        <File name="METALOGS" fileName="/var/log/blackbuck/metaComp.log" immediateFlush="true" append="false">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers> 
+	    <Logger name="com.blackbuck.track" level="debug" additivity="false">
+	      <AppenderRef ref="Analytics"/>
+	    </Logger>    
+		<Root level="error">
+            <AppenderRef ref="METALOGS"/>
+        </Root>  
+    </Loggers>
+</Configuration>
