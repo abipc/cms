@@ -2,6 +2,8 @@
 
 RESTful Service to manage (CRUD) movies
 
+This service is one of the four services required. TRANSACTIONAL service that takes care of all the CRUD operations on the movies.
+
 Batch Create/Update - /movie HTTP Post
 
 Search - /movie HTTP Get and /movie/search HTTP Post
