@@ -1,3 +1,6 @@
+#Movie Content Management System
+
+
 ###Dependencies
 ######For versions checkout pom.xml
 
@@ -15,17 +18,12 @@ Servlet API
 
 JUnit
 
-MongoDB
-
 Jackson
 
 Log4J and JCL 
 
 Apache HTTP Client
 
-Javax Mail
-
-Java Melody
 
 
 
@@ -93,14 +91,5 @@ echo $JAVA_HOME
 File -> Import -> Maven -> Existing Maven Projects
 
 Browse & select trackntracedataimporter directory
-
-
-####MongoDB Index
-
-db.<dbName>.createIndex( { registration_number : 1 , loc : 1, vendor_timestamp:1 }, {unique: true})
-
-db.<dbName>.createIndex( {loc : "2dsphere"})
-
-
 
 
