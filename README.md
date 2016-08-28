@@ -2,7 +2,7 @@
 
 ####RESTful 
 
-Service to manage (CRUD) movies
+Spring Maven Java based Service to manage (CRUD) movies
 
 ####TRANSACTIONAL 
 
